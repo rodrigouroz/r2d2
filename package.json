@@ -1,0 +1,23 @@
+{
+  "name": "r2d2-bot",
+  "version": "1.0.0",
+  "description": "A bot for Slack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rodrigo Uroz <rodrigouroz@gmail.com>",
+  "license": "ISC",
+  "engines": {
+    "node": "0.12.x"
+  },
+  "dependencies": {
+    "moment": "^2.10.6",
+    "needle": "^0.10.0",
+    "q": "^1.4.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rodrigouroz/r2d2.git"
+  }
+}
