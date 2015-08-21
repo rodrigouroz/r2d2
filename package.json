@@ -1,6 +1,6 @@
 {
   "name": "r2d2-bot",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A bot for Slack that checks inactivity in the channels it's been invited",
   "main": "index.js",
   "scripts": {
