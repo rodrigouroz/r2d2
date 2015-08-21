@@ -1,6 +1,6 @@
 # r2d2
 
-A slack bot.
+A slack bot that checks inactivity in the channels it's been invited.
 
 ## Usage
 
