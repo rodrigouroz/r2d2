@@ -17,4 +17,4 @@ To invite the bot to a channel, use the slack command invite: /invite @botname (
 * Allow to configure the inactivity period (currently it's 2 days and not configurable)
 * Add more messages and choose one randomly when a request for status will be posted (pokeMessages.js)
 * Implement Real Time Messaging API (https://api.slack.com/rtm) so that the bot can check when a status was posted after it required one
-** This would allow in the future to add new integrations / responses / services
+  * This would allow in the future to add new integrations / responses / services
