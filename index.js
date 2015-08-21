@@ -1,5 +1,5 @@
-var Channels = require('./channels');
-var Bot = require('./bot');
+var Channels = require('./lib/channels');
+var Bot = require('./lib/bot');
 
 var teamBot;
 
