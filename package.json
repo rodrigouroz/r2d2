@@ -1,7 +1,7 @@
 {
   "name": "r2d2-bot",
   "version": "1.0.0",
-  "description": "A bot for Slack",
+  "description": "A bot for Slack that checks inactivity in the channels it's been invited",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
