@@ -4,7 +4,7 @@ A slack bot.
 
 ## Usage
 
-In the *config* folder there's a file named *config_example.js*. This must be used to generate a file named *config.js* (replace with the token of your bot). To create a bot check https://api.slack.com/bot-users.
+To run the application you must set an environment variable named BOT_TOKEN with the token of the created bot. To create a bot check https://api.slack.com/bot-users. Example: $ BOT_TOKEN=444 node index.js
 
 Each time the application is run, it will connect as the bot, check in which channels the bot has been invited, and for each of those channels will check if there has been more than 2 days of inactivity. If that's the case it will post a message to the channel asking for a status update.
 
