@@ -19,5 +19,8 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/rodrigouroz/r2d2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rodrigouroz/r2d2/issues"
   }
 }
