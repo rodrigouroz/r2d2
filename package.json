@@ -4,7 +4,7 @@
   "description": "A bot for Slack",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "author": "Rodrigo Uroz <rodrigouroz@gmail.com>",
   "license": "ISC",
@@ -26,5 +26,8 @@
   "keywords": [
     "Slack",
     "Bot"
-  ]
+  ],
+  "devDependencies": {
+    "mocha": "^2.2.5"
+  }
 }
