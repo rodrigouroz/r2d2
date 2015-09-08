@@ -1,6 +1,6 @@
 # r2d2
 
-A slack bot.
+A slack bot that checks inactivity in the channels it's been invited.
 
 ## Usage
 
@@ -12,9 +12,14 @@ You can run the application as many times as you want, ideally it should be run 
 
 To invite the bot to a channel, use the slack command invite: /invite @botname (where botname is the name of the bot as was created).
 
+## Configuration
+
+By default it will poke after 2 business days. The environment variable DAY_DIFF can be set to a different number.
+
+For example: $ BOT_TOKEN=444 DAY_DIFF=4 node index.js
+
 ## TODO
 
-* Allow to configure the inactivity period (currently it's 2 days and not configurable)
 * Add more messages and choose one randomly when a request for status will be posted (pokeMessages.js)
 * Implement Real Time Messaging API (https://api.slack.com/rtm) so that the bot can check when a status was posted after it required one
   * This would allow in the future to add new integrations / responses / services

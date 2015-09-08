@@ -1,10 +1,10 @@
 {
   "name": "r2d2-bot",
-  "version": "1.0.1",
-  "description": "A bot for Slack that checks inactivity in the channels it's been invited",
+  "version": "1.0.3",
+  "description": "A bot for Slack",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "author": "Rodrigo Uroz <rodrigouroz@gmail.com>",
   "license": "ISC",
@@ -26,5 +26,8 @@
   "keywords": [
     "Slack",
     "Bot"
-  ]
+  ],
+  "devDependencies": {
+    "mocha": "^2.2.5"
+  }
 }
